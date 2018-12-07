@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+<title>Random search engine</title>
+<link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+</h:head>
+<h:body>
+<h1 class="title">Random search engine</h1>
+
+<div align="center">
+	<h:form>
+		Search for: <h:inputText value="#{searchController.seq}"/><br/>
+		<h:commandButton value="Search" action="#{searchController.search}"/>
+	</h:form>
+</div>
+
+</h:body></html>
